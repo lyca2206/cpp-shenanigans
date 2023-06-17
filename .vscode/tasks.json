@@ -8,6 +8,7 @@
 			"args": [
 				"-g",
 				"-std=c++23",
+				"-fmodules-ts",
 				"${workspaceFolder}/*.cpp",
 				"-o",
 				"${fileDirname}/main"
@@ -28,6 +29,7 @@
 			"args": [
 				"-g",
 				"-std=c++23",
+				"-fmodules-ts",
 				"${workspaceFolder}/*.cpp",
 				"-o",
 				"${fileDirname}/main"
