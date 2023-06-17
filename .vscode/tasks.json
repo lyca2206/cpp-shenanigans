@@ -8,9 +8,9 @@
 			"args": [
 				"-g",
 				"-std=c++23",
-				"${workspaceFolder}\\*.cpp",
+				"${workspaceFolder}/*.cpp",
 				"-o",
-				"${fileDirname}\\main"
+				"${fileDirname}/main"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -20,6 +20,26 @@
 			],
 			"group": "build",
 			"detail": "compiler: /usr/bin/g++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "G++ 13.1.0",
+			"command": "/home/linuxbrew/.linuxbrew/bin/g++-13",
+			"args": [
+				"-g",
+				"-std=c++23",
+				"${workspaceFolder}/*.cpp",
+				"-o",
+				"${fileDirname}/main"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /home/linuxbrew/.linuxbrew/bin/g++-13"
 		}
 	]
 }
